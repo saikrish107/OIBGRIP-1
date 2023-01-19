@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+body{
+    background: rgb(28,46,123);
+    background: linear-gradient(135deg, rgba(28,46,123,1) 14%, rgba(62,90,215,1) 49%, rgba(0,212,255,1) 85%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.elements {
+	text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 45%;
+    transform: scale(2);
+    margin-top: 200px;
+    box-shadow: 0px 3px 27px 4px rgba(0,0,0,0.75);
+}
+.elements input[type=text]{
+	background-color: rgb(156, 201, 169);
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	padding-right: 4px;
+	padding-left: 4px;
+	width: 121px;
+	font-size: 10px;
+    text-align: end;
+}
+.elements input[type=text]:focus{
+	outline: none;
+}
+.cal{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.cal table{
+	 padding-top: 10px;
+}
+.cal button{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	background-color: white;
+    border-radius: 5px;
+}
+.cal button:hover{
+	background-color: rgba(219, 219, 219);
+    border-radius: 5px;
+}
+.ans{
+    background: orange !important;
+    color: white;
+}
+.ans:hover{
+    background:red !important;
+}

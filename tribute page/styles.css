@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+    padding: 10px;
+}
+#title{
+    margin-left: 40%;
+}
+p{
+    margin-left: 42%;
+}
+#img-div{
+    text-align: center;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    padding: 0;
+}
+#img-div p{
+    margin: auto;
+}
+#tribute-info{
+    text-align: left;
+    max-width: 60%;
+}
